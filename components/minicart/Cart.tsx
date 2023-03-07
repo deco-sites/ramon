@@ -7,7 +7,8 @@ import { useUI } from "../../sdk/useUI.ts";
 import CartItem from "./CartItem.tsx";
 import Coupon from "./Coupon.tsx";
 
-const CHECKOUT_URL = "https://constance.vtexcommercestable.com.br/checkout";
+const CHECKOUT_URL =
+  "https://bravtexfashionstore.vtexcommercestable.com.br/checkout";
 
 function Cart() {
   const { displayCart } = useUI();
